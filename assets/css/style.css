@@ -136,10 +136,21 @@ h2, h5 {
 }
 
 /*Portfolio Page styling*/
-.title img {
-	width: 110%;
+.portfolio-card-title.card-body, .card.portfolio-card {
+  background-color: #6C747A;
+  color: white;
 }
 
+.portfolio-card-title.card-body h4 {
+  font-size: 17px;
+}
+
+
+/* .title img {
+	width: 110%;
+} */
+
 img.card-img-top {
-	height: 12rem;
+  width: 11rem;
+	height: 11rem;
 }
