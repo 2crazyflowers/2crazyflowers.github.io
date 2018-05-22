@@ -8,95 +8,93 @@
 </head>
 <body style="background-image:url('assets/images/dan-cook-501784-unsplash.jpg'); background-repeat: no-repeat; background-size: cover">
 
-	<!--Navigation Bar-->
-<div class="row card-header">
-	<div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 pb-1">
-		<div class="name card-header card mb-1 pb-1">
-			<h3>Sara Bracewell</h3>
-		</div>
-	</div>
-	<div class="col-xl-4 col-lg-4 col-md-1 col-sm-1">
-	</div>
-	<div class="pl-4 col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12">
+  <!--Name Header-->
+  <div class="row card-header">
+    <div class="name card-header card mb-1 pb-1">
+      <h3>Sara Bracewell</h3>
+    </div>
+  </div>
 
-	</div>
-</div>		
 
-<!--Contact Container-->
-<!-- <div class="pt-4 pb-4" style="background-image:url('assets/images/dan-cook-501784-unsplash.jpg'); background-repeat: no-repeat; background-size: cover"></div> -->
-<div class="">
-	<div class="row">
-    
-    <!--Connect with Me-->
-    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-10 side-bar" >
+  <!--Contact Container-->
+  <div class="row">
+      
+    <!--Navigation-->
+    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 side-bar">
       <div>
         <nav>
           <a href="index.html" class="nav">
             About Me
           </a>
           <a href="portfolio.html" class="nav">
-            Portfolio
+            My Portfolio
           </a>
           <a href="contact.html" class="nav">
-            Contact
+            Contact Me
+          </a>
+          <a href="education.html" class="nav">
+            My Education
+          </a>
+          <a href="skills.html" class="nav">
+            My Skills
           </a>
         </nav>
       </div>
       <div>
-        <div>
-          <h5 id="connect" class="card-header">Connnect with Me</h5>
-          <div class="connect card-body">
-            <a href="https://github.com/2crazyflowers" target="_blank">
-              <img src="assets/images/gitsquare.png" height="60px">
-            </a>
-            <a class="big" href="https://stackoverflow.com/users/8716390/s-bracewell" target="_blank">
-              <img src="assets/images/stackoverflow (1).png" height="60px">
-            </a>
-            <a href="https://www.linkedin.com/in/sarabracewell" target="_blank">
-              <img src="assets/images/linkedin.png" height="60px">
-            </a>
-            <br />
-            <h6>Email: <a>bracewell.sara@gmail.com</a></h6>
-            <h6>Phone: 651.983.6106</h6>
-            <br />
-            <h6>Thank you for visiting my site.</h6>
-          </div>
+        <div class="connect card-body">
+          <h5>Connect with Me:</h5>
+          <a class="link" href="https://github.com/2crazyflowers" target="_blank">
+            <img src="assets/images/gitsquare.png" height="60px">
+          </a>
+          <a class="link" href="https://www.linkedin.com/in/sarabracewell" target="_blank">
+            <img src="assets/images/linkedin.png" height="60px">
+          </a>
+        </div>
+        <a class="resume-link nav" href="https://docs.google.com/document/d/1PKshincLxYzWMBaWIDgFKwSxO4FOKpflApW67EiUVQo/edit?usp=sharing" target="_blank">Checkout my Resume</a>
       </div>
     </div>
-  </div>
-  <div class="col-xl-8 col-lg-8 col-md-7">
-    <div class="card">
-      <h2 class="contact card-header">Contact Me</h2>
-      <div class="contact card-body">
-        <div class="row">
-          <div class="col-md-11 mb-3">
-            <form class="mb-3">
-              <div class="form-group">
-                <label class="col-form-label" for="formGroupExampleInput2">Name</label>
-                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="John Smith">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
-                <small id="emailHelp" class="form-text text-muted">I will never share your email with anyone else.</small>
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-              </div>
-              <button type="submit" class="btn btn-dark">Submit</button>
-            </form>
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
+      <div class="card">
+        <h2 class="contact card-header">Contact Me</h2>
+        <div class="contact card-body">
+          <div class="row">
+            <div class="col-md-11 mb-3">
+              <form class="mb-3" method="post" action="contact-form-handler.php">
+                <div class="form-group">
+                  <div class="contact-me-info">
+                    <br />
+                    <h6>I would love to hear from you, so feel free to connect with me or contact me and thank you for visiting my site.</h6>
+                    <h6>Email:
+                      <a href="mailto: bracewell.sara@gmail.com">bracewell.sara@gmail.com</a>
+                    </h6>
+                    <h6>Phone: 651.983.6106</h6>
+                    <br />
+                  </div>
+                  <label class="col-form-label" for="formGroupExampleInput2">Name</label>
+                  <input type="text" class="form-control" name="name" id="formGroupExampleInput2" placeholder="John Smith" required>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com"  required>
+                  <small id="emailHelp" class="form-text text-muted">I will never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark form-submit" name="submit" >Submit</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Footer -->
-<div class="card footer text-white text-center" style="max-width: 100%; height=100px;" mb-0>
-	<br>
-  <small>&copy 2018 Copyright Sara Bracewell   |  Photo by Markus Spiske on Unsplash</small> 
-</div>
+  <!-- Footer -->
+  <div class="footer text-white text-center" style="max-width: 100%; height=100px;" mb-0>
+    <br>
+    <small>&copy 2018 Copyright Sara Bracewell   |  Photo by Markus Spiske on Unsplash</small> 
+  </div>
 </body>
 </html>
