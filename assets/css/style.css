@@ -107,7 +107,7 @@ h6 {
 }
 
 /* main card for about me and portfolio and contact me */
-.card {
+.main.card {
   margin-top: 20px;
   margin-left: 20px;
   background: rgb(44, 44, 44, 0.9);
@@ -155,18 +155,27 @@ h2, h5 {
 }
 
 /*Portfolio Page styling*/
+
+.portfolio-card {
+  border-radius: 0;
+  margin-top: 20px;
+  width: 10.5rem;
+}
+
 .portfolio-card-title.card-body, .card.portfolio-card {
   background-color: #6C747A;
   color: white;
+  padding-bottom: 10px;
+
 }
 
 .portfolio-card-title.card-body h4 {
-  font-size: 17px;
+  font-size: .9rem;
 }
 
 img.card-img-top {
-  width: 11rem;
-	height: 11rem;
+  width: 10rem;
+	height: 10rem;
 }
 
 img.image {
@@ -174,6 +183,7 @@ img.image {
   border-image: 2px white;
   margin-right: 15px;
 }
+
 
 #connect.card-header {
   margin-left: 20px;
@@ -189,7 +199,31 @@ img.image {
   padding-left: 3px;
   margin-bottom: 30px;
 }
+/* skills */
 
+.coding-group {
+  display: inline-block;
+  margin: 7px;
+}
+.coding-images img {
+  height: 40px;
+}
+
+.coding-images h6 {
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+
+}
+
+/* education */
+.education h6 {
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
 
 @media screen and (max-width: 838px) {
   a.nav {
@@ -267,7 +301,7 @@ img.image {
     padding-left: 5px;
     line-height: 1rem;
   }
-  .card {
+  .main.card {
     margin-right: 10px;
   }
 }
@@ -324,12 +358,25 @@ img.image {
     margin-bottom: 10px;
   }
 
-  .card {
+  .main.card {
     margin-right: 10px;
   }
 
   .footer {
     font-size: 14px;
   }
+
+  /* .portfolio-card {
+    border-radius: 0;
+    margin: 0;
+    margin-top: 10px;
+    width: 7rem;
+  }
+
+  img.card-img-top {
+    width: 7rem;
+    height: 7rem;
+  } */
+
 
 }

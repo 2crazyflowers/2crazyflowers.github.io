@@ -19,6 +19,9 @@
   "homepage": "https://github.com/2crazyflowers/Portfolio#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.6.4"
   }
 }
