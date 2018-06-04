@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>My Education</title>
-
+  <link rel="icon" href="favicon.ico" sizes="16x16" type="image/png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
     crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -13,10 +13,9 @@
 <body style="background-image:url('assets/images/dan-cook-501784-unsplash.jpg'); background-repeat: no-repeat; background-size: cover">
 
   <!--Name Header-->
-  <div class="row card-header">
-    <div class="name card-header">
-      <h3>Sara Bracewell</h3>
-    </div>
+  <div class="name card-header card flex-row pb-1">
+    <img src="assets/images/cardimg.PNG" height="100px" width="100px">
+    <h3>Sara Bracewell</h3>
   </div>
 
   <div class="container-fluid">
@@ -50,31 +49,33 @@
           <a href="https://www.linkedin.com/in/sarabracewell" target="_blank">
             <img src="assets/images/linkedin.png" height="60px">
           </a>
+          <a href="https://www.facebook.com/sara.bracewell.3" target="_blank"><img src="assets/images/facebook.png" height="60px"></a>
+          <a href="https://twitter.com/bracewell_sara" target="_blank"><img src="assets/images/twitter.png" height="60px"></a>
         </div>
-        <a class="resume-link nav" href="https://docs.google.com/document/d/1PKshincLxYzWMBaWIDgFKwSxO4FOKpflApW67EiUVQo/edit?usp=sharing"  target="_blank">Checkout my Resume</a>
+        <a class="resume-link nav" href="https://docs.google.com/document/d/1PKshincLxYzWMBaWIDgFKwSxO4FOKpflApW67EiUVQo/edit?usp=sharing"  target="_blank">See My Resume</a>
       </div>
 
       <!--Education Container-->
       <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
         <div class="main card">
-          <h2 class="contact card-header">My Education and Experience</h2>
+          <h2 class="contact card-header">My Education</h2>
           <div class="contact card-body">
             <div class="education">
               <div class="uofm">
                 <img src="">
                 <h5>University of Minnesota Full Stack Coding Program (November 2017-May 2018)</h5>
-                <h6>An intensive and rigorous six month full stack coding program that covered both theory and applications of web development. Curriculum is designed to learn the skills needed to become proficient in both front-end and back-end technologies. The certificate program teaches the knowledge and skills to build dynamic end-to-end web applications using a mix of:</h6>
-                <ul>
+                <h6 class="light">An intensive and rigorous six month full stack coding program that covered both theory and applications of web development. Curriculum is designed to learn the skills needed to become proficient in both front-end and back-end technologies. The certificate program teaches the knowledge and skills to build dynamic end-to-end web applications using a mix of:</h6>
+                <ul class="light">
                   <li>lecture to cover the background, history and use of each technology,</li>
                   <li>lab exercises in and out of the classroom to build on the technologies taught,</li>
                   <li>individual assignments graded and commented on in order to get feedback to improve, and</li>
                   <li>group projects to stretch each individuals ability to create full stack web applications the required using both technologies taught in the classroom as well as new technologies not taught to stretch and drive each individual towards greatest learning possible.</li>
                 </ul>
-                <h6 class="center">Technologies and Skills Taught</h6>
+                <h6 class="center">Technologies and Skills Learned</h6>
                 <div class="row">
                   <div class="col-md-6">
-                  <h6>Browser Based Technologies</h6>
-                  <ul class="inline">
+                  <h6 class="titles">Browser Based Technologies</h6>
+                  <ul class="light">
                     <li>HTML5</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
@@ -86,43 +87,45 @@
                     <li>React.js</li>
                     <li>Firebase</li>
                   </ul>
-                  <h6>Deployment</h6>
-                  <ul class="inline">
+                  <h6 class="titles">Deployment</h6>
+                  <ul class="light">
                     <li>Heroku</li>
                     <li>Git</li>
                   </ul>
-                  <h6>Databases</h6>
-                  <ul classes="inline">
+                  <h6 class="titles">Databases</h6>
+                  <ul classes="light">
                     <li>MySQL</li>
                     <li>MongoDB</li>
                   </ul>
                 </div>
                 <div class="col-md-6">
-                  <h6>Server Side Development</h6>
-                  <ul classes="inline">
+                  <h6 class="titles">Server Side Development</h6>
+                  <ul class="light">
                     <li>Express</li>
                     <li>Security and Session Storage</li>
                     <li>User Authentication</li>
                     <li>MERN Stack (MongoDB, Express.js, React.js and Node.js)</li>
                   </ul>
-                  <h6>Quality Assurance</h6>
-                  <ul>
+                  <h6 class="titles">Quality Assurance</h6>
+                  <ul class="light">
                     <li>Writing Tests using Mocha, Chai and ??</li>
                   </ul>
-                  <h6>Command Line??</h6>
-                  <h6>GitHub??</h6>
-                  <h6>Code Editors</h6>
+                  <h6>Other</h6>
                   <ul>
+                    <li>Command Line??</li>
+                    <li>GitHub??</li>
+                  </ul>
+                  <h6 class="titles">Code Editors</h6>
+                  <ul class="light">
                     <li>Sublime</li>
                     <li>Visual Studio Code</li>
                   </ul>
                 </div>
               </div>
-              </div>
               <div class="codecademy">
                 <h5>Codecademy.com (May 2017 - ?</h5>
                 <h6>Classes completed in their previous learning format (June 2016 - June 2017):</h6>
-                <ul>
+                <ul class="light">
                   <li>HTML</li>
                   <li>Learn HTML & CSS: Part I</li>
                   <li>Intro to Full Stack</li>
@@ -130,15 +133,20 @@
                   <li>Learn Responsive Design</li>
                 </ul>
                 <h6>Classes completed in their current learning format (July 2017 - May 2018):</h6>
-                <ul>
+                <ul class="light">
                   <li>Learn HTML</li>
                   <li>Learn CSS</li>
                   <li>Introduction into JavaScript</li>
                   <li></li>
                 </ul>
               </div>
-
-            
+              <div class="college">
+                <h5>University of Minnesota</h5>
+                <ul>
+                  <li>Environmental Horticulture with Emphasis in Small Business</li>
+                  <li>Hours Completed: xxx</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

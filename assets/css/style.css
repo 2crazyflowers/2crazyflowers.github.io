@@ -8,32 +8,36 @@ body {
   margin: 0;
   padding: 0;
 }
-.row.name {
-  background-color: rgb(44, 44, 44);
-}
 
 .row {
   padding: 0;
   margin: 0;
 }
-
-.name.card-header {
-  margin: 10px 0 10px 30px;
-  padding: 0;
-  border: none;
-  /* border-bottom: 2px solid rgba(0,0,0,.125); */
-  background-color : rgb(44, 44, 44);
-  /* background-color: #18130F; */
+.name.card-header.card.flex-row {
+  height: 67px;
 }
 
-.name.card-header h3 {
-  color: white;
+.name.card-header.card {
+  padding: 0;
+  border: none;
+  /* background-color : rgb(44, 44, 44); */
+  background-color: white;
+  /* flex-direction: row; */
+}
+
+.name.card-header.card h3 {
+  /* color: white; */
+  padding: 15px 0 30px 10px;
   font-size: 33px;
   font-weight: bold;
-  text-shadow: 2px 2px #6C747A;
+  /* text-shadow: 2px 2px #6C747A; */
   
 }
 
+img {
+  z-index: 1;
+  padding: 0;
+}
 
 /* top of page */
 .row.card-header {
@@ -41,20 +45,22 @@ body {
   border: none;
   margin-top: 0;
   margin-bottom: 0;
-  background-color : rgb(44, 44, 44);
+  background-color: white;
+  /* background-color : rgb(44, 44, 44); */
   padding: 0;
-  max-height: 60px;
+  max-height: 67px;
 }
 
-/* .container {
-  width: 95%;
-} */
-
 .side-bar{
+  border-top: 4px dotted rgb(44, 44, 44);
+  border-bottom: 5px dotted white;
+  z-index: 0;
   margin-top: 0;
   margin-bottom: 0;
+  padding-top: 30px;
   padding-bottom: 20px;
   background-color: rgb(255, 189, 74);
+  min-height: 580px;
 }
 /* side-bar navigation */
 
@@ -62,6 +68,7 @@ a.nav {
   font-size: 18px;
   margin-top: 10px;
   margin-left: 30px;
+  padding: 30px 0 20px 0;
   padding-bottom: 10px;
   padding-top: 10px;
   color : rgb(44, 44, 44);
@@ -77,22 +84,38 @@ a.nav:hover {
   color: white;
   background-color: rgb(44, 44, 44);
   color: white;
-  padding-left: 15px;
+  padding-left: 45px;
   text-decoration: none;
+  border: none;
 }
 
 a.resume-link {
+  text-align: center;
   margin-top: 5px;
-  margin-left: 10px;
-  padding: 10px 0 10px 20px;
-  background-color: white;
-  color: rgb(44, 44, 44);
-  /* border: 2px solid rgb(44, 44, 44); */
-  box-shadow: 2px 2px 5px rgb(44, 44, 44);
+  margin-left: 40px;
+  padding: 15px;
+  color: white;
+  background-color: #667264;
+  /* background-color: #AFD2E9; */
+  /* background-color: #E8F7EE; */
+  
+  border: 1px solid rgb(44, 44, 44);
+  border-radius: 10px;
+  /* background-color: 3b579d; */
+  /* color: white; */
+  /* color : rgb(44, 44, 44); */
+  box-shadow: 3px 3px 5px #474E4E;
+  /* font-style: oblique; */
+  font-weight: bold;
+  width: 170px;
+  /* width: 130px; */
 
 }
 a.resume-link:hover {
-  padding-left: 35px;
+  box-shadow: none;
+  /* padding-left: 50px; */
+  border: 1px dashed  white;
+  padding: 15px;
 }
 
 h6 {
@@ -104,6 +127,7 @@ h6 {
 /* in side-bar */
 .connect.card-body {
   text-align: center;
+  padding: 12px 8px 0 8px;
 }
 
 .card-body {
@@ -160,11 +184,25 @@ h2, h5 {
 
 /* footer */
 .footer {
-  background: rgb(44, 44, 44);
+  /* background-color: #ACC4B2; */
+  /* background-color: rgb(255, 189, 74); */
+  /* background: rgb(44, 44, 44); */
+  /* background-color: #413e35; */
+  background-color: #B8C4BB;
+  /* background-color: #2B4570; */
+  
+  
   border-radius: 0;
   margin-top: 0;
   margin-left: 0;
-	height: 70px;
+  height: 70px;
+  
+}
+
+.footer small {
+  /* color: white; */
+  /* font-weight: bold; */
+  color: rgb(44, 44, 44);
 }
 
 /*Contact Page style*/
@@ -235,10 +273,37 @@ img.image {
 /* skills */
 .coding-group {
   display: inline-block;
-  margin: 7px;
+  margin: 12px;
+}
+.coding-group.rounded img{
+  border-radius: 10px;
+}
+
+.skills h6 {
+  font-weight: 200;
+  font-size: 17px;
+  letter-spacing: .5px;  
+}
+
+.coding-group p {
+  text-align: center;
+  /* margin-right: 5px; */
+}
+
+.coding-group img {
+  height: 45px;
+  width: 58px;
+}
+
+.coding-images {
+  margin: 12px;
 }
 .coding-images img {
-  height: 45px;
+  height: 60px;
+}
+
+.coding-images.rounded img {
+  border-radius: 10px;
 }
 
 .coding-images h6 {
@@ -249,21 +314,36 @@ img.image {
   letter-spacing: 1px;
 }
 
+p {
+  font-size: 16px;
+}
+
 /* education */
-.education h6 {
+h6 {
   color: white;
   font-size: 15px;
-  font-weight: 100;
   margin-left: 10px;
-  margin-bottom: 20px;
 }
 
 h6.center {
-  text-align: center;
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 188px;
+  text-decoration: underline;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.titles {
   font-weight: bold;
   text-decoration: underline;
   font-style: italic;
+  margin-bottom: 10px;
+}
+
+.light {
+  font-weight: 100;
 }
 
 @media screen and (max-width: 932px) {
@@ -322,6 +402,7 @@ h6.center {
     padding-left: 0;
     margin-bottom: 30px;
   }
+
   a.resume-link.nav {
     padding: 8px 10px;
     text-align: center;
