@@ -60,7 +60,7 @@ img {
   padding-top: 30px;
   padding-bottom: 20px;
   background-color: rgb(255, 189, 74);
-  min-height: 580px;
+  min-height: 596px;
 }
 /* side-bar navigation */
 
@@ -95,14 +95,13 @@ a.resume-link {
   margin-left: 40px;
   padding: 15px;
   /* color: white; */
-  /* background-color: #667264; */
+  background-color: #667264;
   /* background-color: #AFD2E9; */
   /* background-color: #E8F7EE; */
-  background-color: #B8C4BB;
+  /* background-color: #B8C4BB; */
   /* background-color: #8E9AAF; */
   /* border: 1px solid rgb(44, 44, 44); */
   border: 1px solid white;
-  
   border-radius: 10px;
   /* background-color: 3b579d; */
   /* color: white; */
@@ -328,7 +327,7 @@ img.image {
 }
 
 .coding-images {
-  margin: 12px;
+  margin: 5px 12px 0 12px;
 }
 .coding-images img {
   height: 60px;
