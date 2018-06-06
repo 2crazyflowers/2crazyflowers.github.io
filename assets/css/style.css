@@ -1,4 +1,3 @@
-/* top of page for name */
 body {
   margin: 0;
   padding: 0;
@@ -13,6 +12,8 @@ body {
   padding: 0;
   margin: 0;
 }
+
+/* top of page for name */
 .name.card-header.card.flex-row {
   height: 67px;
 }
@@ -22,16 +23,13 @@ body {
   border: none;
   /* background-color : rgb(44, 44, 44); */
   background-color: white;
-  /* flex-direction: row; */
 }
 
 .name.card-header.card h3 {
-  /* color: white; */
   padding: 15px 0 30px 10px;
   font-size: 33px;
   font-weight: bold;
   /* text-shadow: 2px 2px #6C747A; */
-  
 }
 
 img {
@@ -41,7 +39,6 @@ img {
 
 /* top of page */
 .row.card-header {
-  /* background-color: #18130F; */
   border: none;
   margin-top: 0;
   margin-bottom: 0;
@@ -51,6 +48,7 @@ img {
   max-height: 67px;
 }
 
+/* side-bar navigation */
 .side-bar{
   border-top: 4px dotted rgb(44, 44, 44);
   border-bottom: 5px dotted white;
@@ -62,7 +60,6 @@ img {
   background-color: rgb(255, 189, 74);
   min-height: 596px;
 }
-/* side-bar navigation */
 
 a.nav {
   font-size: 18px;
@@ -94,18 +91,11 @@ a.resume-link {
   margin-top: 5px;
   margin-left: 40px;
   padding: 15px;
-  /* color: white; */
   background-color: #667264;
-  /* background-color: #AFD2E9; */
-  /* background-color: #E8F7EE; */
   /* background-color: #B8C4BB; */
-  /* background-color: #8E9AAF; */
-  /* border: 1px solid rgb(44, 44, 44); */
-  border: 1px solid white;
+  border: 1px solid rgb(44, 44, 44);
   border-radius: 10px;
-  /* background-color: 3b579d; */
-  /* color: white; */
-  color: rgb(44, 44, 44);
+  color: white;
   box-shadow: 3px 3px 5px #474E4E;
   /* font-style: oblique; */
   font-weight: bold;
@@ -115,18 +105,15 @@ a.resume-link {
 }
 a.resume-link:hover {
   box-shadow: none;
-  /* padding-left: 50px; */
   border: 1px dashed  white;
   padding: 15px;
 }
 
 h6 {
-  /* color: white; */
   color: rgb(44, 44, 44);
   font-size: 14px;
 }
 
-/* in side-bar */
 .connect.card-body {
   text-align: center;
   padding: 12px 8px 0 8px;
@@ -157,14 +144,6 @@ h6 {
   margin-bottom: 20px;
 }
 
-.card-deck {
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
-
-}
-
 /* card for contact me */
 .contact.card-body {
   background: rgb(44, 44, 44, 0.1);
@@ -174,10 +153,7 @@ h6 {
 }
 
 h2, h5 {
-	/*To make color same as basic,
-	 but I like new color from bootstrap*/
-	/*color: #4aaaa5;*/
-  color: white;
+	color: white;
 }
 
 .contact-me-info h6 {
@@ -186,24 +162,14 @@ h2, h5 {
 
 /* footer */
 .footer {
-  /* background-color: #ACC4B2; */
-  /* background-color: rgb(255, 189, 74); */
-  /* background: rgb(44, 44, 44); */
-  /* background-color: #413e35; */
   background-color: #B8C4BB;
-  /* background-color: #2B4570; */
-  
-  
   border-radius: 0;
   margin-top: 0;
   margin-left: 0;
   height: 70px;
-  
 }
 
 .footer small {
-  /* color: white; */
-  /* font-weight: bold; */
   color: rgb(44, 44, 44);
 }
 
@@ -211,80 +177,6 @@ h2, h5 {
 .form-control {
 	border-radius: 0;
 }
-
-.port-buttons {
-  background-color: rgb(44, 44, 44);
-}
-
-.btn.btn-primary {
-  /* border-radius: 0; */
-  width: 120px;
-  /* background-color: white; */
-  /* color: #3F5DA8; */
-  margin: 10px;
-  background-color: #B8C4BB;
-  color: rgb(44, 44, 44);
-  border: 1px solid white;
-  /* border: 1px solid  #3F5DA8; */
-  font-weight: bold;
-  /* color: rgb(44, 44, 44); */
-}
-
-.btn.btn-primary:hover {
-  background-color: #667264;
-  /* color: rgb(44, 44, 44);
-  border: 1px solid white; */
-
-}
-
-/*Portfolio Page styling*/
-
-.card.portfolio-card {
-  border: 2px solid #3F5DA8;
-  color: white;
-  /* border-radius: 0; */
-  margin: 20px;
-}
-
-.port.card-header {
-  /* background-color:  rgb(255, 189, 74); */
-  background-color: #3F5DA8;
-  color: rgb(44, 44, 44);
-}
-
-.portfolio.card-body h4 {
-  font-size: .9rem;
-  /* color: rgb(44, 44, 44); */
-  color: white;
-}
-
-.portfolio.card-body {
-  /* background-color: #6C747A; */
-  color: white;
-  padding-bottom: 7px;
-  background-color: rgb(44, 44, 44);
-}
-
-.card-img-top {
-  width: 10rem;
-  height: 10rem;
-  margin: 7px 15px 7px 7px;
-  border: 2px solid white;
-}
-
-.portfolio.card-body h6 {
-  margin-top: 20px;
-  line-height: 1.25rem;
-  font-weight: 300;
-  color: white;
-}
-
-img.image {
-  height: 150px;
-  border-image: 2px white;
-  margin-right: 15px;
-}
-
 
 #connect.card-header {
   margin-left: 20px;
@@ -301,11 +193,81 @@ img.image {
   margin-bottom: 30px;
 }
 
+/*Portfolio Page styling*/
+.port-buttons {
+  background-color: rgb(44, 44, 44);
+}
+
+.btn.btn-primary {
+  width: 120px;
+  background-color: white;
+  /* color: #3F5DA8; */
+  /* border: 1px solid  #3F5DA8; */
+  margin: 10px;
+  /* background-color: #B8C4BB; */
+  color: rgb(44, 44, 44);
+  border: 1px solid white;
+  font-weight: bold;
+}
+
+.btn.btn-primary:hover {
+  background-color: #B8C4BB;  
+  /* background-color: #667264; */
+  border: 1px solid white;
+}
+
+.card.portfolio-card {
+  border: 2px solid #3F5DA8;
+  /* border: 2px solid #667264; */
+  color: white;
+  /* border-radius: 0; */
+  margin: 20px;
+}
+
+.port.card-header {
+  /* background-color: #667264; */
+  color: white;
+  background-color: #3F5DA8;
+  /* color: rgb(44, 44, 44); */
+}
+
+.portfolio.card-body h4 {
+  font-size: .9rem;
+  color: white;
+}
+
+.portfolio.card-body {
+  color: white;
+  padding-bottom: 7px;
+  background-color: rgb(44, 44, 44);  
+}
+
+.card-img-top {
+  width: 10rem;
+  height: 10rem;
+  margin: 7px 15px 7px 7px;
+  border: 2px solid white;
+}
+
+.portfolio.card-body h6 {
+  /* margin-top: 20px; */
+  line-height: 1.25rem;
+  font-weight: 300;
+  color: white;
+}
+
+img.image {
+  height: 150px;
+  border-image: 2px white;
+  margin-right: 15px;
+}
+
 /* skills */
 .coding-group {
   display: inline-block;
   margin: 12px;
 }
+
 .coding-group.rounded img{
   border-radius: 10px;
 }
@@ -377,36 +339,22 @@ h6.center {
   font-weight: 100;
 }
 
-@media screen and (max-width: 932px) {
-  .port-card {
+@media screen and (max-width: 1060px) {
+  a.resume-link {
+    width: 100px;
+  }
+
+  h6.center {
+    text-align: left;
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 963px) {
+  .card-img-top {
     width: 9rem;
+    height: 9rem;
     margin: 15px;
-  }
-
-}
-
-@media screen and (max-width: 882px) {
-  .port-card {
-    width: 7rem;
-    margin: 25px;
-  }
-}
-
-@media screen and (max-width: 871px) {
-  .port-card {
-    width: 9rem;
-    margin: 10px;
-  }
-  div.card.portfolio-card {
-    border-radius: 0;
-    width: 9rem;
-  }
-  img.card-img-top {
-    width: 8.75rem;
-    height: 8.75rem;
-  }
-  .portfolio-card-title.card-body h4 {
-    font-size: .8rem;
   }
 }
 
@@ -414,6 +362,10 @@ h6.center {
   a.nav {
     font-size: 17px;
     margin-left: 15px;
+  }
+  
+  a.nav:hover {
+    padding-left: 15px;
   }
 
   .connect.card-body {
@@ -431,65 +383,11 @@ h6.center {
     height: 60px; 
     margin: 2px;
     padding-left: 0;
-    margin-bottom: 30px;
-  }
-
-  a.resume-link.nav {
-    padding: 8px 10px;
-    text-align: center;
-    margin: 5px 1px 5px 10px;
-    font-size: 14px;
+    margin-bottom: 10px;
   }
 }
 
-@media screen and (max-width: 798px) {
-  .port-card {
-    margin: 6px;
-  }
-}
-
-@media screen and (max-width: 765px) {
-  .port-card {
-    width: 8rem;
-    margin: 10px;
-  }
-
-  div.card.portfolio-card {
-    border-radius: 0;
-    width: 8rem;
-  }
-
-  img.card-img-top {
-    width: 7.75rem;
-    height: 7.75rem;
-  }
-
-  .portfolio-card-title.card-body h4 {
-    font-size: .7rem;
-  }
-}
-
-@media screen and (max-width: 728px) {
-  .port-card {
-    width: 10rem;
-    margin: 10px;
-  }
-  div.card.portfolio-card {
-    border-radius: 0;
-    width: 10rem;
-  }
-  img.card-img-top {
-    width: 9.75rem;
-    height: 9.75rem;
-  }
-  .portfolio-card-title.card-body h4 {
-    font-size: .9rem;
-  }
-}
-
-/* @media screen and (max-width: 747px) */
-/* add media query to fix issue when screen size gets to this */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 623px) {
   a.nav {
     margin-top: 0;
     margin-left: 10px;
@@ -498,11 +396,65 @@ h6.center {
     text-decoration: none;
     font-size: 15px;
   }
+}
+
+@media screen and (max-width: 575px) {
+  .side-bar {
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 0;
+    /* padding-left: 5px; */
+    line-height: 1rem;
+    min-height: 285px;
+    border-bottom: 4px dotted  rgb(44, 44, 44)  
+    
+  }
+
+  a.nav {
+    margin-top: 0;
+    margin-left: 1px;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline;
+    padding-top: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  a.nav:hover {
+    margin-left: 3px;
+    
+  }
 
   .connect.card-body {
     margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     padding-top: 0;
     padding-left: 5px;
+  }
+  
+  a.resume-link {
+    margin-left: 150px;
+    /* margin-bottom: 50px; */
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    height: 40px;
+  }
+
+  a.resume-link:hover {
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 150px;    
   }
 
   h5.connect.card-body {
@@ -512,50 +464,25 @@ h6.center {
   }
 
   .connect.card-body img {
-    height: 50px;
+    height: 70px;
     margin: 0 2px 5px 2px;
-  }
-
-  a.resume-link.nav {
-    margin-left: 5px;
-    margin-bottom: 10px;
-    padding-left: 10px;
-    font-size: 14px;
-  }
-
-  .side-bar {
-    margin: 20px 30px 0 35px;
-    padding-top: 20px;
-    padding-bottom: 0;
-    padding-left: 5px;
-    line-height: 1rem;
   }
 
   .main.card {
     margin-right: 10px;
   }
 
-  .card-deck {
-    flex-flow: row wrap;
+  .card-body.skills h6 {
+    margin-bottom: 25px;
   }
 
-  .port-card {
-    width: 9rem;
-    margin: 10px;
+  ul.lists {
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
-  div.card.portfolio-card {
-    border-radius: 0;
-    width: 9rem;
-  }
-
-  img.card-img-top {
-    width: 8.75rem;
-    height: 8.75rem;
-  }
-
-  .portfolio-card-title.card-body h4 {
-    font-size: .8rem;
+  .footer {
+    border-top: 5px dotted  rgb(44, 44, 44)  
   }
 }
 
