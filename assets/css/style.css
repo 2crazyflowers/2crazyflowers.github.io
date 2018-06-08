@@ -164,7 +164,8 @@ h2, h5 {
 .contact-me-info h5 {
   font-weight: 300;
   letter-spacing: 1px;
-  font-size: 18px;  
+  font-size: 18px;
+  text-align: center;  
 }
 
 /* .contact.connect.card-body {
@@ -172,20 +173,29 @@ h2, h5 {
   
 } */
 
-.contact-page.resume-link.nav {
-  /* text-align: center; */
+.contact-page.resume-btn {
   background-color: rgb(255, 189, 74);
-  width: 200px;
+  width: 300px;
   color: rgb(44, 44, 44);
   border: 2px dotted  rgb(255, 189, 74);    
   box-shadow: none;
-  padding: 10px;
+  /* margin: 20px auto; */
   text-align: center;
+  /* padding: 15px auto; */
 }
 
-.contact-page.resume-link.nav:hover {
-  border: 2px dotted  white;  
-  padding: 10px;
+a.contact-page.resume-btn {
+  margin: 10px auto;
+  /* padding: 15px auto; */
+  padding:13px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.contact-page.resume-btn:hover {
+  border: 2px dotted  white;
 }
 
 /* footer */
