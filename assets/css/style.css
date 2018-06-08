@@ -153,6 +153,14 @@ h6 {
   padding-bottom: 0;
 }
 
+h5.about-me {
+  text-align: left;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
 h2, h5 {
 	color: white;
 }
@@ -175,20 +183,21 @@ h2, h5 {
   
 }
 
+.contact-me-info {
+  text-align: center;
+}
+
 .contact-page.resume-btn {
   background-color: rgb(255, 189, 74);
   width: 300px;
   color: rgb(44, 44, 44);
   border: 2px dotted  rgb(255, 189, 74);    
-  box-shadow: none;
-  /* margin: 20px auto; */
+  box-shadow: 2px 2px white;
   text-align: center;
-  /* padding: 15px auto; */
 }
 
 a.contact-page.resume-btn {
   margin: 10px auto;
-  /* padding: 15px auto; */
   padding:13px;
   height: 60px;
   font-size: 20px;
@@ -197,7 +206,23 @@ a.contact-page.resume-btn {
 }
 
 .contact-page.resume-btn:hover {
-  border: 2px dotted  white;
+  border: 2px dotted white;
+  box-shadow: none;
+}
+
+h3.thank-you {
+  color: rgb(255, 189, 74);
+  margin-bottom: 20px;
+}
+
+h6.contact-me-why {
+  font-weight: 300;
+}
+
+h5.bold {
+  font-weight: 600;
+  padding: 10px auto;
+  margin: 10px auto;
 }
 
 /* footer */
