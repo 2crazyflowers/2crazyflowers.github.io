@@ -133,6 +133,7 @@ h6 {
   padding-top: 0;
 }
 
+/* about me page */
 /* main card for about me and portfolio and contact me */
 .main.card {
   margin-top: 20px;
@@ -158,6 +159,33 @@ h2, h5 {
 
 .contact-me-info h6 {
   color: white;
+}
+
+.contact-me-info h5 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 18px;  
+}
+
+/* .contact.connect.card-body {
+  margin-top: 20px;
+  
+} */
+
+.contact-page.resume-link.nav {
+  /* text-align: center; */
+  background-color: rgb(255, 189, 74);
+  width: 200px;
+  color: rgb(44, 44, 44);
+  border: 2px dotted  rgb(255, 189, 74);    
+  box-shadow: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact-page.resume-link.nav:hover {
+  border: 2px dotted  white;  
+  padding: 10px;
 }
 
 /* footer */
