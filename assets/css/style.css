@@ -165,13 +165,15 @@ h2, h5 {
   font-weight: 300;
   letter-spacing: 1px;
   font-size: 18px;
-  text-align: center;  
+  margin-bottom: 15px;
+
+  /* text-align: center;   */
 }
 
-/* .contact.connect.card-body {
-  margin-top: 20px;
+.contact.connect.card-body {
+  margin-top: 0;
   
-} */
+}
 
 .contact-page.resume-btn {
   background-color: rgb(255, 189, 74);
