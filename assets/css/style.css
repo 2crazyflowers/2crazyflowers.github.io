@@ -412,6 +412,13 @@ h6.center {
   font-weight: 100;
 }
 
+@media screen and (max-width: 1511px) {
+  .connect.card-body {
+    margin-left: 34px;
+    margin-right: 34px;
+  }
+}
+
 @media screen and (max-width: 1060px) {
   a.resume-link {
     width: 100px;
@@ -420,6 +427,13 @@ h6.center {
   h6.center {
     text-align: left;
     margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .connect.card-body {
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 
@@ -460,7 +474,19 @@ h6.center {
   }
 }
 
+@media screen and (max-width: 710px) {
+  .contact.connect.card-body.bold {
+    margin-left: 41px;
+    margin-right: 41px;
+  }
+}
+
 @media screen and (max-width: 623px) {
+  .contact.connect.card-body.bold {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
   a.nav {
     margin-top: 0;
     margin-left: 10px;
