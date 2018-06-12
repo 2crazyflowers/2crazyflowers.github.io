@@ -276,6 +276,7 @@ h5.bold {
 }
 
 .btn.btn-primary {
+  /* margin-right: 200px; */
   width: 150px;
   background-color: white;
   /* color: #3F5DA8; */
@@ -322,8 +323,9 @@ h5.bold {
 .card-img-top {
   width: 10rem;
   height: 10rem;
-  margin: 7px 15px 7px 7px;
+  margin: 7px 15px 35px 7px;
   border: 2px solid white;
+
 }
 
 .portfolio.card-body h6 {
