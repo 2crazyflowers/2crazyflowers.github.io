@@ -491,6 +491,12 @@ h6.center {
     padding-left: 0;
     margin-bottom: 10px;
   }
+
+  a.contact-page.resume-btn {
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+  }
 }
 
 @media screen and (max-width: 775px) {
@@ -508,9 +514,20 @@ h6.center {
   .connect.card-body img {
     height: 50px;
   }
+/* 
+  a.contact-page.resume-btn {
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+  } */
 
   .connect.card-body img:hover {
     padding-top: 2px;
+  }
+
+  .contact-page.resume-btn {
+    width: 250px;
+    height: 53px;
   }
 }
 
@@ -525,7 +542,6 @@ h6.center {
     /* font-size: 14px; */
     padding: 12px 8px;
   }
-
 }
 
 @media screen and (max-width: 673px) {
@@ -564,12 +580,6 @@ h6.center {
     font-size: 15px;
   }
 }
-
-/* @media screen and (max-width: 610px) {
-  a.resume-link {
-
-  }
-} */
 
 @media screen and (max-width: 575px) {
   .side-bar {
